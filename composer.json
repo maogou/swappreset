@@ -1,0 +1,44 @@
+{
+  "name": "maogou/preset",
+  "description": "Laravel front end preset package",
+  "keywords": [
+    "vue",
+    "laravel",
+    "element-ui",
+    "bootstrap",
+    "react",
+    "laravel-preset"
+  ],
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": "^7.1.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5",
+    "orchestra/testbench": "^3.8",
+    "laravel/framework": "5.8.*"
+  },
+  "author": {
+    "name": "maogou",
+    "email": "kinyou_xy@126.com"
+  },
+  "autoload": {
+    "psr-4": {
+      "Maogou\\Preset\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Maogou\\Preset\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Maogou\\Preset\\PresetServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}
