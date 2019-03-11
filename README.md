@@ -2,6 +2,9 @@
 
 
 [![Build Status](https://travis-ci.org/maogou/swappreset.svg?branch=master)](https://travis-ci.org/maogou/swappreset)
+[![License](https://poser.pugx.org/maogou/preset/license)](https://packagist.org/packages/maogou/preset)
+[![Total Downloads](https://poser.pugx.org/maogou/preset/downloads)](https://packagist.org/packages/maogou/preset)
+[![Latest Stable Version](https://poser.pugx.org/maogou/preset/v/stable)](https://packagist.org/packages/maogou/preset)
 
 ## Installation
 
